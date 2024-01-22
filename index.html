@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet">
+<title>Multiselect component</title>
+</head>
+<body>
+<header>
+    <div id="selectedValues"></div>
+    <button class="deleteBtn">delete</button>
+    <div class="page-number-display">Page no: <span id="page-indice">1</span></div>
+</header>
+
+<select id="mu-sl" name="items" size="10" multiple onclick="handleSelectClick(event)"></select>
+
+<div>
+    <button class="button" id="prev">Prev</button>
+    <button class="button" id="next">Next</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

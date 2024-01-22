@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    overflow-y: scroll;
+  }
+
+  #selectedValues {
+    padding: 20px;
+    min-height: 120px;
+  }
+  .button {
+background-color: #008CBA;
+border: none;
+color: white;
+padding: 7px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.deleteBtn {
+background-color:#ff2c2c;
+color:#fff;
+padding:3px 5px;
+border:none;
+cursor: pointer;
+}
+.deleteBtn:hover {
+    background-color: #d1001f;
+}
